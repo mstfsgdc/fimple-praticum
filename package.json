@@ -1,0 +1,11 @@
+{
+  "name": "fimple-practicum-xox",
+  "version": "1.0.0",
+  "description": "github.com/mstfsgdc",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mstfsgdc",
+  "license": "ISC"
+}
