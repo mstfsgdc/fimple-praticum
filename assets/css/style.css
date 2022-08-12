@@ -124,6 +124,7 @@ html {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     padding: .5rem .75rem;
+    margin: .15rem;
     outline: none;
     border: none;
     border-radius: .5rem;
@@ -135,8 +136,14 @@ html {
     background-color: #b20d30cc;
 }
 
+.game-container .controls .reset-button:active {
+    background-color: #b20d31b0;
+    transform: scale(.95);
+}
+
 .game-container .announce .game-announce {
     transition: opacity .2s ease-in-out;
+    margin: .25rem;
 }
 
 .game-container .announce .game-announce.hide {
@@ -159,6 +166,16 @@ html {
     border: 1px solid #fff;
     min-width: 7rem;
     min-height: 7rem;
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+.playerX {
+    color: var(--player-turn-x);
+}
+
+.playerO {
+    color: var(--player-turn-o);
 }
 
 @media (max-width: 768px) {
